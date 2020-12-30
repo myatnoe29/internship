@@ -1,0 +1,109 @@
+<?php include 'db_connect.php'; ?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Project</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+  <!-- Custom styles for this template -->
+  <link href="css/blog.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/blog.css">
+
+
+    <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body  style=" background: linear-gradient(rgb(225, 223, 223,0.3),rgb(225, 223, 223,0.3)),url(img/clean.jpg);">
+  
+<!-- Login card -->
+<div class="container my-5">
+  <div class="card text-center shadow-lg bg-white rounded mb-3" style="max-width: 1100px;">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <img src="img/avatar1.png" class="card-img" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h2 class="card-title my-4">User Name</h2>
+        <form action="" method="POST">
+          <div class="row justify-content-center mb-3">
+          <div class="col-5">
+           <input type="text" class="form-control rounded-pill" placeholder="DOB">
+          </div>
+          <div class="col-5">
+          <input type="text" class="form-control rounded-pill" name="" placeholder="Ph.no">
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-5">
+           <input type="text" class="form-control rounded-pill"  name="" placeholder="City">
+          </div>
+          <div class="col-5">
+          <input type="text" class="form-control rounded-pill" id="" name="" placeholder="Address">
+          </div>
+        </div>
+        <div class="row my-3 justify-content-center">
+          <label>Gender :</label>
+          <div class="col-5">
+          <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio1">Male</label>
+          </div>
+          <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+          <label class="form-check-label" for="inlineRadio2">Female</label>
+        </div>
+          </div>
+        </div>
+         <div class="row my-3 justify-content-center">
+         <div class="col-2"><label>Profile</label></div>
+          <div class="col-8 " >
+          <input type="file" class="form-control-file"  name="">
+          </div>
+        </div>
+        <div class="row my-3 justify-content-center">
+           <div class="col-2"><label>CV-form</label></div>
+          <div class="col-8">
+          <input type="file" class="form-control-file "  name="">
+          </div>
+        </div>
+        <div class="row mb-3 justify-content-center">
+          <div class="col-10">
+            <textarea type="text" name="" class="form-control rounded-pill" placeholder="Summary"></textarea>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-10">
+            <button type="submit" class="btn btn-success rounded-pill btn-block">Update</button>
+          </div>
+        </div>
+    </form>
+        <hr class="w-75">
+        <a href="index.php" class="card-text"><i class="fas fa-home mr-2"></i>Go Back Home</a>
+      </div>
+    </div>
+  </div>
+</div>
+  
+</div>
+
+
+</body>
+</html>
